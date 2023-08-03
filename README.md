@@ -39,3 +39,33 @@ added to cart".
 * Limiting the rendered products - ***Not Working*** - I didn't find a way to limit the rendered products(Examples: Loads all 39 of 39 products).
 
 * The Load More Button - ***Not Working*** - Since i didn't find a way to limit the renders, this button is not wokring.
+
+***Screenshots***
+
+* Home Page
+
+![Model](https://github.com/atanas-zlatev-98/Braga-Luxury-Watches/blob/main/Website/screenshots/All-Watches.jpg?raw=true)
+
+* Home Page Mobile Version
+
+![Model](https://github.com/atanas-zlatev-98/Braga-Luxury-Watches/blob/main/Website/screenshots/All-Watches-m.jpg?raw=true)
+
+* NavBar Before Scroll
+
+![Model](https://github.com/atanas-zlatev-98/Braga-Luxury-Watches/blob/main/Website/screenshots/nav-before-scroll.png?raw=true)
+
+* NavBar After Scroll
+
+![Model](https://github.com/atanas-zlatev-98/Braga-Luxury-Watches/blob/main/Website/screenshots/nav-after-scroll.png?raw=true)
+
+* NavBar After Scroll Mobile
+
+![Model](https://github.com/atanas-zlatev-98/Braga-Luxury-Watches/blob/main/Website/screenshots/navbar-m-scroll.jpg?raw=true)
+
+* NavBar After Clicked Mobile
+
+![Model](https://github.com/atanas-zlatev-98/Braga-Luxury-Watches/blob/main/Website/screenshots/navbar-m-scroll-active.jpg?raw=true)
+
+* Filtered Products + Products Count
+
+![Model](https://github.com/atanas-zlatev-98/Braga-Luxury-Watches/blob/main/Website/screenshots/All-Watches-filters.jpg?raw=true)
