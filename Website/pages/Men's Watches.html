@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Men's Watches</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/style/defaul_style.css" />
+    <link rel="icon" type="image/x-icon" href="../assets/style/images/icon/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="nav-bar d-flex justify-content-between align-items-center flex-column">
+        <div class="user-info d-flex justify-content-between align-items-center">
+            <div class="logo ms-3"></div>
+
+            <div class="user d-flex flex-column">
+                <div class="info mb-3">
+                    <p class="m-0 me-1 nav-mini-text"><span style="font-weight: bold;">Email:</span> email.me@gmail.com
+                    </p>
+                    <p class="m-0 nav-mini-text me-2"><span style="font-weight: bold;">Number:</span> 0000000000</p>
+                </div>
+                <div class="flex-row justify-content-end user-d">
+                    <div class="profile ms-1 me-2"></div>
+                    <div class="cart me-1 me-3"></div>
+                </div>
+
+
+            </div>
+        </div>
+        <div id="navbarid" class="navbar-ul-container p-0">
+            <div class="btn-container justify-content-between ps-3 pe-3 w-100">
+                <div id="toggle-nav-drop" class="d-flex align-items-center">
+                    <button id="nav-toggle" type="button" class="toggle-nav m-1">
+                        <span class="hamburger mb-2 mt-2"></span>
+                        <span class="hamburger mb-2"></span>
+                        <span class="hamburger mb-2"></span>
+                    </button>
+                    <img src="../assets/style/images/nav/braga.png" class="braga-img" id="braga"
+                        style="width: 130px;height: 30px;">
+                </div>
+
+                <div class="flex-row user-m m-2 me-2">
+                    <div class="profile ms-1 me-2"></div>
+                    <div class="cart me-1"></div>
+                </div>
+            </div>
+
+
+            <ul id="navlinks" class="justify-content-center align-items-center nav-ul m-0 p-0">
+                <li><a class="nav-links" href="../index.html">Home</a></li>
+                <li><a class="nav-links" href="./Rolex.html">Rolex</a></li>
+                <li><a class='nav-links' href="./Patek Philippe.html">Patek Philippe</a></li>
+                <li><a class='nav-links' href="./On Sale.html">On Sale</a></li>
+                <li><a class='nav-links' href="./Men's Watches.html">Mens</a></li>
+                <li><a class='nav-links' href="./Ladies Watches.html">Ladies</a></li>
+            </ul>
+
+        </div>
+    </header>
+
+
+    <div class="main d-flex">
+        <div class="container products-container w-100 pt-3 pb-3 p-0 m-0 d-flex">
+
+            <div class="container m-0 container-data p-0 d-flex">
+
+                <div class="filters-d">
+                    <h2 class="text-center p-3">Filters</h2>
+                    <form>
+
+                        <div class="accordion accordion-flush" id="accordionFlush">
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button acc-filter collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                        BRAND
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlush">
+                                    <div class="accordion-body acc-filter">
+
+
+                                        <input type="checkbox" id="" name="brand" class="input-value" value="Rolex">
+                                        <label for="">Rolex</label><br>
+
+                                        <input type="checkbox" id="" name="brand" class="input-value" value="Patek Philippe">
+                                        <label for="">Patek Philippe</label><br>
+
+                                        <input type="checkbox" id="" name="brand" class="input-value" value="Jacob & Co">
+                                        <label for="">Jacob & Co</label><br>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button acc-filter collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                        aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        DIAMETER
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush">
+                                    <div class="accordion-body acc-filter">
+
+
+                                        <input type="checkbox" id="" name="diameter" class="input-value" value="26">
+                                        <label for="">26mm</label><br>
+
+                                        <input type="checkbox" id="" name="diameter" class="input-value" value="28">
+                                        <label for="">28mm</label><br>
+
+                                        <input type="checkbox" id="" name="diameter" class="input-value" value="30">
+                                        <label for="">30mm</label><br>
+
+                                        <input type="checkbox" id="" name="diameter" class="input-value" value="31">
+                                        <label for="">31mm</label><br>
+
+                                        <input type="checkbox" id="" name="diameter" class="input-value" value="36">
+                                        <label for="">36mm</label><br>
+
+                                        <input type="checkbox" id="" name="diameter" class="input-value" value="37">
+                                        <label for="">37mm</label><br>
+
+                                        <input type="checkbox" id="" name="diameter" class="input-value" value="39">
+                                        <label for="">39mm</label><br>
+
+                                        <input type="checkbox" id="" name="diameter" class="input-value" value="40">
+                                        <label for="">40mm</label><br>
+
+                                        <input type="checkbox" id="" name="diameter" class="input-value" value="41">
+                                        <label for="">41mm</label><br>
+
+                                        <input type="checkbox" id="" name="diameter" class="input-value" value="42">
+                                        <label for="">42mm</label><br>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button acc-filter collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                        aria-expanded="false" aria-controls="flush-collapseThree">
+                                        MATERIAL
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlush">
+                                    <div class="accordion-body acc-filter">
+
+                                        <input type="checkbox" id="" name="material" class="input-value"
+                                            value="Stainless Steel">
+                                        <label for="Stainless Steel">Stainless Steel</label><br>
+
+                                        <input type="checkbox" id="" name="material" class="input-value" value="Gold">
+                                        <label for="Gold">Gold</label><br>
+
+                                        <input type="checkbox" id="" name="material" class="input-value"
+                                            value="Rose Gold">
+                                        <label for="Rose Gold">Rose Gold</label><br>
+
+                                        <input type="checkbox" id="" name="material" class="input-value"
+                                            value="White Gold">
+                                        <label for="White Gold">White gold</label><br>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="button" class="btn-filter p-1" id="btnFilter">Filter</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+                <div class="products">
+                    <div class="products-all d-flex flex-column">
+                        <div class="sorting p-3 d-flex flex-column">
+                            <div class="sort-header">
+                                <div class=" w-100 d-flex flex-row justify-content-between">
+
+                                    <h2 class="w-75 d-flex m-0 align-items-center">Category: Men's Watches</h2>
+
+                                    <div class="sort-btn w-100 d-flex justify-content-end align-items-center">
+                                        <p class="m-0 me-2">Sorting:</p>
+                                        <select class="sorting-list" name="ice-cream">
+                                            <option>Select</option>
+                                            <option id="a-z-Sort" value="alphabetic-a-z">A-z</option>
+                                            <option id="z-a-Sort" value="alphabetic-z-a">Z-a</option>
+                                            <option id="ascSort" value="asc">Price Ascending</option>
+                                            <option id="descSort" value="desc">Price Descending</option>
+                                        </select>
+                                        <button class=" p-1  m-2 show-filter-btn" type="button"
+                                            data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
+                                            aria-controls="offcanvas">
+                                            Filters
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                    <div class="d-flex">
+                                        <p class="d-flex fw-bold">Loaded Products:
+                                        <p class="ps-1" id="product-counter"></p>
+                                        <p class="ps-1 pe-1"> /</p>
+                                        <p id="total-products"></p>
+                                        </p>
+                                    </div>
+                            </div>
+
+
+                        </div>
+                        <div id="products-list" class="product-list"></div>
+                        <div class="d-flex justify-content-center mb-5">
+                            <button type="button" class="w-25 btn-load-more p-1">Load More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer class="footer d-flex flex-column justify-content-between">
+        <div>
+            <div class="footer-d align-items-center">
+                <div class="container footer-logo ps-3">
+                    <div class="img-logo-footer"></div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s.</p>
+                    <div class="follow-us">
+                        <h2>Follow us.</h2>
+                        <div class="d-flex">
+                            <a class="me-2" href='#'>
+                                <div class="facebook"></div>
+                            </a>
+                            <a class="me-2" href='#'>
+                                <div class="insta"></div>
+                            </a>
+                            <a class="me-2" href='#'>
+                                <div class="twitter"></div>
+                            </a>
+                            <a class="me-2" href='#'>
+                                <div class="threads"></div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div id="footer-links-d" class="container footer-quick-links">
+                    <h2>Quick Links</h2>
+                    <ul class="p-0 ps-2">
+                        <li><a class="footer-a-links" href="#">Contact Us</a></li>
+                        <li><a class="footer-a-links" href="#">Terms and Conditions</a></li>
+                        <li><a class="footer-a-links" href="#">Privacy Policy</a></li>
+                        <li><a class="footer-a-links" href="#">Return Policy</a></li>
+                        <li><a class="footer-a-links" href="#">How to Order</a></li>
+                    </ul>
+                </div>
+                <div id="footer-links-d" class="container footer-top-brands">
+                    <h2>Top Brands</h2>
+                    <ul class="p-0 ps-2">
+                        <li><a class="footer-a-links" href="#">Rolex</a></li>
+                        <li><a class="footer-a-links" href="#">Jacob & Co</a></li>
+                        <li><a class="footer-a-links" href="#">Patek Philippe</a></li>
+                        <li><a class="footer-a-links" href="#">Bamford Watches</a></li>
+                        <li><a class="footer-a-links" href="#">Baume & Mercier Watches</a></li>
+                    </ul>
+                </div>
+                <div id="footer-links-d" class="container footer-information">
+                    <h2>Information</h2>
+                    <ul class="p-0 ps-2">
+                        <li>Email: this.email@gmail.com</li>
+                        <li>Fax: + ### ## ### ####</li>
+                        <li>Telephone: + ### ## ### ####</li>
+                        <li>Location: Pazardzhik city</li>
+                        <li>Address: "Some Address"</li>
+                    </ul>
+                </div>
+
+                <div class="accordion-for-m accordion-container container p-0 m-0 mt-5 mb-5 w-100 align-items-center justify-content-center">
+                    <div class="accordion accordion-flush w-75" id="accordionFlush">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    Quick Links
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlush">
+                                <div class="accordion-body">
+                                    <ul class="p-0 ps-2">
+                                        <li><a class="footer-a-links" href="#">Contact Us</a></li>
+                                        <li><a class="footer-a-links" href="#">Terms and Conditions</a></li>
+                                        <li><a class="footer-a-links" href="#">Privacy Policy</a></li>
+                                        <li><a class="footer-a-links" href="#">Return Policy</a></li>
+                                        <li><a class="footer-a-links" href="#">How to Order</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                    aria-controls="flush-collapseFive">
+                                    Top Brands
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlush">
+                                <div class="accordion-body">
+                                    <ul class="p-0 ps-2">
+                                    <li><a class="footer-a-links" href="#">Rolex</a></li>
+                                    <li><a class="footer-a-links" href="#">Jacob & Co</a></li>
+                                    <li><a class="footer-a-links" href="#">Patek Philippe</a></li>
+                                    <li><a class="footer-a-links" href="#">Bamford Watches</a></li>
+                                    <li><a class="footer-a-links" href="#">Baume & Mercier Watches</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                    aria-controls="flush-collapseSix">
+                                    Information
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlush">
+                                <div class="accordion-body">
+                                    <ul class="p-0 ps-2">
+                                        <li>Email: this.email@gmail.com</li>
+                                        <li>Fax: + ### ## ### ####</li>
+                                        <li>Telephone: + ### ## ### ####</li>
+                                        <li>Location: Pazardzhik city</li>
+                                        <li>Address: "Some Address"</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container footer-newsletter ps-5 pe-5">
+                    <h2>In the right place at the right time.</h2>
+                    <div class="d-flex w-100 flex-column">
+                        <p class="m-0">Subscribe for our newsletter.</p>
+                        <input class="newsletter-input mb-2" type="text" class="w-100" placeholder="Email" />
+                        <button type="button" class="newsletter-button">Subscribe</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="copyright mt-3">
+            <p class="text-center m-0">© 2023 Developed by <a class="link-portfolio"
+                    href="https://atanas-zlatev.netlify.app/">Atanas Zlatev</a>.</p>
+        </div>
+
+
+
+    </footer>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasLabel">Filters</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <form>
+                <div class="accordion accordion-flush" id="accordionFlush">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSeven">
+                            <button class="accordion-button acc-filter collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
+                                aria-expanded="false" aria-controls="flush-collapseSeven">
+                                BRAND
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlush">
+                            <div class="accordion-body acc-filter">
+
+
+                                <input type="checkbox" id="" name="brand" class="input-value" value="Rolex">
+                                <label for="">Rolex</label><br>
+
+                                <input type="checkbox" id="" name="brand" class="input-value" value="Patek Philippe">
+                                <label for="">Patek Philippe</label><br>
+
+                                <input type="checkbox" id="" name="brand" class="input-value" value="Jacob & Co">
+                                <label for="">Jacob & Co</label><br>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingEight">
+                            <button class="accordion-button acc-filter collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false"
+                                aria-controls="flush-collapseEight">
+                                DIAMETER
+                            </button>
+                        </h2>
+                        <div id="flush-collapseEight" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlush">
+                            <div class="accordion-body acc-filter">
+
+                                <input type="checkbox" id="" name="diameter" class="input-value" value="26">
+                                <label for="">26mm</label><br>
+
+                                <input type="checkbox" id="" name="diameter" class="input-value" value="28">
+                                <label for="">28mm</label><br>
+
+                                <input type="checkbox" id="" name="diameter" class="input-value" value="30">
+                                <label for="">30mm</label><br>
+
+                                <input type="checkbox" id="" name="diameter" class="input-value" value="31">
+                                <label for="">31mm</label><br>
+
+                                <input type="checkbox" id="" name="diameter" class="input-value" value="36">
+                                <label for="">36mm</label><br>
+
+                                <input type="checkbox" id="" name="diameter" class="input-value" value="37">
+                                <label for="">37mm</label><br>
+
+                                <input type="checkbox" id="" name="diameter" class="input-value" value="39">
+                                <label for="">39mm</label><br>
+
+                                <input type="checkbox" id="" name="diameter" class="input-value" value="40">
+                                <label for="">40mm</label><br>
+
+                                <input type="checkbox" id="" name="diameter" class="input-value" value="41">
+                                <label for="">41mm</label><br>
+
+                                <input type="checkbox" id="" name="diameter" class="input-value" value="42">
+                                <label for="">42mm</label><br>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingNine">
+                            <button class="accordion-button acc-filter collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false"
+                                aria-controls="flush-collapseNine">
+                                MATERIAL
+                            </button>
+                        </h2>
+                        <div id="flush-collapseNine" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlush">
+                            <div class="accordion-body acc-filter">
+
+                                <input type="checkbox" id="" name="material" class="input-value"
+                                    value="Stainless Steel">
+                                <label for="Stainless Steel">Stainless Steel</label><br>
+
+                                <input type="checkbox" id="" name="material" class="input-value" value="Gold">
+                                <label for="Gold">Gold</label><br>
+
+                                <input type="checkbox" id="" name="material" class="input-value" value="Rose Gold">
+                                <label for="Rose Gold">Rose Gold</label><br>
+
+                                <input type="checkbox" id="" name="material" class="input-value" value="White Gold">
+                                <label for="White Gold">White gold</label><br>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn-filter p-1" id="btnFilterM">Filter</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div id="products-list-template" class="d-none">
+        <div class="d-flex flex-column product-card m-2 p-2 justify-content-between">
+
+            <div class="d-flex align-items-center justify-content-center flex-column p-0 m-0">
+                <img src="" class="product-img m-1">
+                <div class="m-0 p-0 game-title-container">
+                    <p class="fw-bold product-title m-0 ps-1"></p>
+                    <p class="product-description"></p>
+                </div>
+            </div>
+
+            <div>
+                <div class="d-flex justify-content-between flex-column">
+
+                    
+                    <div id="discount-container" class="d-flex">
+                        <p id="discount-price-id" class="discount-price m-0 ps-1"></p>
+                        <!--<p class="ps-1 m-0 bgn">
+                            <spna class="fw-bold">BGN.</spna>
+                        </p>-->
+                    </div>
+                    
+                    <div class="d-flex flex-row ps-1 price">
+                        <p id="product-price-id" class="product-price m-0"></p>
+                        <p class="ps-1 m-0">
+                            <spna class="fw-bold">BGN.</spna>
+                        </p>
+                    </div>
+                    
+                    <div class="d-flex justify-content-between align-items-center pb-2 pe-3">
+                        <div id="rating" class="d-flex me-2">
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star-no"></span>
+                        </div>
+                        <div id="cart-product" onclick="addCart()" class="icons"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="../assets/script/script.js"></script>
+    <script src="../assets/script/fetchDataMen.js"></script>
+</body>
+
+</html>
