@@ -23,7 +23,7 @@ It's a website for luxury watches, that has few categories: Rolex, Patek Philipp
 
 * Product tile - created empty elements that serve as placeholders for the data we get from the template function.
 
-* Sorting mechanism - for the sorting mechanims i used a select element with four options in it: Sort by Price(Ascending or Descending) and sort by Name(A-z and Z-a) each of the options in the select element have a value. Then i get the select element by its class(example: "const sortingList = document.querySelector(".sorting-list")") and then use it with a .addEventListener, so every time we change the option we get a different value depending on what we select. Then i use a simple if-else statement, to define on what to sort price or name. Example: (if (e.target.value === 'asc') { dataSort.sort((a, b) => { return a.price - b.price });}) this will sort the products by ascending price.
+* Sorting mechanism - for the sorting mechanims i used a select element with four options in it: Sort by Price(Ascending or Descending) and sort by Name(A-z and Z-a) each of the options in the select element have a value. Then i get the select element by its class(example: const sortingList = document.querySelector(".sorting-list")) and then use it with a .addEventListener, so every time we change the option we get a different value depending on what we select. Then i use a simple if-else statement, to define on what to sort price or name. Example: (if (e.target.value === 'asc') { dataSort.sort((a, b) => { return a.price - b.price });}) this will sort the products by ascending price.
 
 * Add to cart button - each cart button has a onClick={addCart()} function that just shows an alert with the text "Product
 added to cart".
@@ -31,6 +31,15 @@ added to cart".
 * Footer - on the desktop version there are 5 sections , one with logo and links for social media, 2 for links, 1 for information and 1 for newsletter. On the mobile version the sections with links and information are replaced by bootstrap accordion.
 
 * Filters on mobile version - the filters section on the mobile version is moved to a sidebar on the left that is opened by a button, this is also bootstrap.
+
+* Loading different products based on category - in my case the categories are the Brands/ products that are On Sale and Male or Female.
+
+/* Example for the On Sale page i use a filter that checks if the product is on sale:
+const filteredData = data.filter(product => product.onDiscount.includes('Yes')); */
+
+/* Same is for the Brands - 
+const filteredData = data.filter(product => product.brand.includes('Rolex'));
+Checks if the product brand contains 'Rolex', and then stores all the products with brand 'Rolex' in filteredData. */
 
 ***Parts of the Website that do no work, or do not work properly***
 
@@ -70,7 +79,7 @@ added to cart".
 
 ![Model](https://github.com/atanas-zlatev-98/Braga-Luxury-Watches/blob/main/Website/screenshots/Sorting-d.jpg)
 
-* List of Products after Sorting by Ascending Price
+* The list of Products after Sorting by Ascending Price
 
 ![Model](https://github.com/atanas-zlatev-98/Braga-Luxury-Watches/blob/main/Website/screenshots/Products%20After%20Sort.jpg?raw=true)
 
