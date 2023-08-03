@@ -28,7 +28,7 @@ It's a website for luxury watches, that has few categories: Rolex, Patek Philipp
 * Add to cart button - each cart button has a onClick={addCart()} function that just shows an alert with the text "Product
 added to cart".
 
-* Footer - on the desktop version there are 5 sections , one with logo and links for social media, 2 for links, 1 for information and 1 for newsletter. On the mobile version the sections with links and information are replaced by bootstrap accordion.
+* Footer - on the desktop version there are 5 sections , one with logo and links for social media, 2 for links, 1 for information and 1 for newsletter. On the mobile version the sections with links and information are replaced by bootstrap accordion, the accordions still have the links inside them, but are not working because i didn't set their hrefs.
 
 * Filters on mobile version - the filters section on the mobile version is moved to a sidebar on the left that is opened by a button, this is also bootstrap.
 
@@ -40,6 +40,8 @@ const filteredData = data.filter(product => product.onDiscount.includes('Yes'));
 /* Same is for the Brands - 
 const filteredData = data.filter(product => product.brand.includes('Rolex'));
 Checks if the product brand contains 'Rolex', and then stores all the products with brand 'Rolex' in filteredData. */
+
+/* Even if i had other products like jewelry, bags, etc i would have used the same filter method */
 
 ***Parts of the Website that do no work, or do not work properly***
 
