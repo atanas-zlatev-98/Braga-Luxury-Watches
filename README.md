@@ -1,7 +1,14 @@
 Hello! This is my project, it was created using the following technologies: HTML, CSS, JavaScript and a little bit of JQuery and Bootstrap.
 It's a website for luxury watches, that has few categories: Rolex, Patek Philippe, Jacob & Co and a category for men or women's watches and watches that are on Sale. The website has a sorting mechanism that sorts the rendered products by: Price(Ascending or Descending) and by Name(A-z and Z-a). Also a filtering mechanism that filters by: Brand, Material, Size and Gender(Male or Female);
 
+***Note***
 
+* In order for the products to be displayed the server must be started, before you start the server, you will need to install the node_modules by running npm install in the Node folders terminal. The server is listed at port 3000.
+
+* After you installed the node_modules, simply run nodemon index.js to start the server.
+
+  
+  
 ***Parts of the website that work and how it was achieved***
 
 * Loading and retrieving the products - i stored the products on a local server and im retrieving them by a function that uses Ajax, i have an empty array that i store the response from the ajax call for the rendering of the products.
