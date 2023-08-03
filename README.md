@@ -66,6 +66,26 @@ added to cart".
 
 ![Model](https://github.com/atanas-zlatev-98/Braga-Luxury-Watches/blob/main/Website/screenshots/navbar-m-scroll-active.jpg?raw=true)
 
+* Sorting Products
+
+![Model](https://github.com/atanas-zlatev-98/Braga-Luxury-Watches/blob/main/Website/screenshots/Sorting-d.jpg)
+
+* List of Products after Sorting by Ascending Price
+
+![Model](https://github.com/atanas-zlatev-98/Braga-Luxury-Watches/blob/main/Website/screenshots/Products%20After%20Sort.jpg?raw=true)
+
 * Filtered Products + Products Count
 
 ![Model](https://github.com/atanas-zlatev-98/Braga-Luxury-Watches/blob/main/Website/screenshots/All-Watches-filters.jpg?raw=true)
+
+* Filters Mobile View
+
+![Model](https://github.com/atanas-zlatev-98/Braga-Luxury-Watches/blob/main/Website/screenshots/All-Watches-filters-m.jpg?raw=true)
+
+* Footer Desktop
+
+![Model](https://github.com/atanas-zlatev-98/Braga-Luxury-Watches/blob/main/Website/screenshots/footer-d.jpg?raw=true)
+
+* Footer Mobile
+
+![Model](https://github.com/atanas-zlatev-98/Braga-Luxury-Watches/blob/main/Website/screenshots/footer-m-active.jpg?raw=true)
