@@ -47,7 +47,7 @@ Checks if the product brand contains 'Rolex', and then stores all the products w
 
 * Filtering - ***Not Working Properly*** - Filtering mechanism is not working properly, it filters only by 1 characteristic and i currently grouped the checkboxes so you can select only one from few option(Example: if you want to filter by brand there are 3 options Rolex, Jacob & Co and Patek Philippe and only one can be selected) and if you want want to filter by something else you need to uncheck the previous checked checkbox.
 
-* Limiting the rendered products - ***Not Working*** - I didn't find a way to limit the rendered products(Examples: Loads all 39 of 39 products).
+* Limiting the rendered products - ***Not Working*** - I didn't find a way to limit the rendered products(Examples: Loads all products /* The count of the products is different on the different pages */).
 
 * The Load More Button - ***Not Working*** - Since i didn't find a way to limit the renders, this button is not wokring.
 
